@@ -20,9 +20,6 @@
 .reviewcard{
     position: relative;
     display:flex;
-    flex-direction:column;
-    writing-mode:vertical;
-    white-space:nowrap;
     margin-bottom: 300px;
 }
 
@@ -69,7 +66,7 @@
 
 .plan{
     height: 503px;
-    background:url(/Users/lucychang/Desktop/mission2/HtmlCss/footer_sm.svg);
+    background:url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/home_footer.svg);
     background-position:center;
     background-repeat:no-repeat;
     background-size:cover;
