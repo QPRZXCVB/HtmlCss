@@ -23,38 +23,47 @@ a { text-decoration: none;}
 .wrap{
    background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/bg_home.svg");
    background-position: right top;
-   background-repeat: no-repeat
+   background-repeat: no-repeat;
+ background-size: 615px;
+ gap:20px
+ 
+}
+
+.top{
+    background: transparent url('img/top.png') 0% 0% no-repeat padding-box;
+    font-size: 20px;
+ 
 }
 
 .banner{
     display:flex;
-    top: 118px;
-left: 141px;
-width: 1085px;
-height: 534px;
+    justify-content: space-between;
+   
     
 }
 
-.banner img{
-    top: 118px;
+.bannerpic{
+    top: 50px;
 left: 694px;
-width: 532px
+width: 400px
+   
 
 }
 .bannertext h2{
-    margin-top:158px;
-    text-align: left;
-font: normal normal bold 18px/26px Noto Sans TC;
-letter-spacing: 0px;
-color: #56C4C5;
-margin-bottom: 8px;
-left: 141px;
-width: 432px;
+   
+    text-align: top left;
+    font: normal normal bold 18px Noto Sans TC;
+    letter-spacing: 0px;
+    color: #56C4C5;
+    margin-bottom: 8px;
+ margin-left: 0%;
+
+
 }
 
 .bannertext h3{
     text-align: left;
-font: normal normal bold 48px/70px Noto Sans TC;
+font: normal normal bold 40px Noto Sans TC;
 letter-spacing: 0px;
 color: #221E1F;
 margin-bottom: 16px;
@@ -69,8 +78,6 @@ margin-bottom: 16px;
 
 
 .header{
-    top: 0px;
-    left: 0px;
     width: 960px;
     display: flex;
     justify-content: space-between;
@@ -282,32 +289,29 @@ margin-bottom: 100px;
 
 
 .service-section{
-    display: flex;
-    justify-content: center;
+   
     margin-bottom: 100px;
-    
+    display: flex;
+    justify-content: space-evenly;
      -webkit-box-align: center;
      align-items: center;
-     left: 139px;
      gap:137px
+    
     
  
 }
 
-.service{
-    width:800px;
-    gap:47px;
+.service{   
+ 
+    gap:10px;
     margin-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
 
-   
-   
-
 }
 .analyze {
     width: 230px;
-    height: 280px;
+    
     background: #FFFFFF;
     box-shadow: 0px 2px 10px #00000014;
     border-radius: 12px;
@@ -326,7 +330,7 @@ margin-bottom: 100px;
     font-size: 16px;
 }
 .chat{width: 230px;
-    height: 280px;
+    
     background: #FFFFFF;
     -webkit-box-shadow: 0px 2px 10px #00000014;
             box-shadow: 0px 2px 10px #00000014;
@@ -338,7 +342,7 @@ margin-bottom: 100px;
 }
 
 .info{ width: 230px;
-    height: 280px;
+   
     background: #FFFFFF;
     -webkit-box-shadow: 0px 2px 10px #00000014;
             box-shadow: 0px 2px 10px #00000014;
@@ -348,7 +352,7 @@ margin-bottom: 100px;
     padding:40px}
 .group-message{
     width: 230px;
-    height: 280px;
+    
     background: #FFFFFF;
     -webkit-box-shadow: 0px 2px 10px #00000014;
             box-shadow: 0px 2px 10px #00000014;
@@ -360,12 +364,15 @@ margin-bottom: 100px;
 }
 .price{
     align-items: left;
+    margin-left:137px;
+    
+ 
 }
 .price h5{
     top: 2076px;
 left: 783px;
 width: 256px;
-height: 92px;
+
 font-size: 32px;
 font-weight: bold;
 margin-bottom: 16px;
@@ -374,9 +381,9 @@ margin-bottom: 16px;
 top: 2184px;
 left: 783px;
 width: 395px;
-height: 78px;
+
 font-size: 18px;
-margin-bottom: 36px;
+margin-bottom: 50px;
 }
 
 .price a{
