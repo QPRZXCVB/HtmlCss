@@ -32,6 +32,10 @@ a { text-decoration: none;}
 .top{
     background: transparent url('img/top.png') 0% 0% no-repeat padding-box;
     font-size: 20px;
+    top: 674px;
+left: 1247px;
+width: 71px;
+height: 71px;
  
 }
 
@@ -52,7 +56,7 @@ width: 400px
 .bannertext h2{
    
     text-align: top left;
-    font: normal normal bold 18px Noto Sans TC;
+    font: “normal bold 18px Noto Sans TC”;
     letter-spacing: 0px;
     color: #56C4C5;
     margin-bottom: 8px;
